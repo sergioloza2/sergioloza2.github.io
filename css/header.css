@@ -1,0 +1,24 @@
+.u-clearfix:after,
+.u-clearfix:before {
+    content: '';
+    display: table;
+}
+.u-clearfix:after {
+    clear: both;
+}
+.u-hide-header .u-header,
+.u-hide-footer .u-footer {
+    display: none;
+}
+header,
+footer {
+    position: relative;
+}
+header > *,
+footer > * {
+    position: relative;
+}
+.u-header.u-sticky {
+    position: fixed;
+    top: 0;
+}
